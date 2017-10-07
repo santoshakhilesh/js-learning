@@ -3,8 +3,12 @@
  */
 
 
-
+//In line Object
 var myObject = {};
+
+console.log(myObject);
+
+myObject.foo = 10;
 
 console.log(myObject);
 
@@ -28,4 +32,5 @@ myObject["address"]["city"]={
 console.log(myObject);
 console.log(typeof(myObject["address"]["city"]));
 console.log(typeof(myObject["address"]["city"]["pincode"]));
+
 
